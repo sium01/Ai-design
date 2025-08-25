@@ -1,0 +1,27 @@
+:root {
+  --primary-bg: #000817;
+  --text-color: #ffffff;
+  --accent-color: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background: var(--primary-bg);
+  color: var(--text-color);
+  overflow-x: hidden;
+}
+
+.canvas-background {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  height: 100vh !important;
+  z-index: 0;
+}
